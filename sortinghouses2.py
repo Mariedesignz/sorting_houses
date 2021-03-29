@@ -1,5 +1,12 @@
 import constant 
 import random 
+import json
+# Meets conditon to read data from an external file
+with open("questions.json", "r") as read_file:
+        Defaultquestions = json.load(read_file)
+ # Meets second requiremnt to create and pull information from a dictionary       
+question_1 = Defaultquestions["Q1"]
+question_2 = Defaultquestions["Q2"]       
 
 # created a constant to make code DRY
 # imported random so questions will be asked in random orders
@@ -17,7 +24,7 @@ def q1():
     hufflepuff = 0
     slytherin = 0
 
-    q1_answer = input("Will you break the rules to help a friend? \na) yes \nb) no \nc) maybe \nd) get lost\n")
+    q1_answer = input(question_1 + " \na) yes \nb) no \nc) maybe \nd) get lost\n")
     if q1_answer == "a":
         gryffindor += 1
     elif q1_answer == "b":
@@ -43,7 +50,7 @@ def q2():
     hufflepuff = 0
     slytherin = 0
 
-    q2_answer = input("How do you describe yourself? \na) brave \nb) timid \nc)superstar \nd)best of the best\n")
+    q2_answer = input(question_2 + "\na) brave \nb) timid \nc)superstar \nd)best of the best\n")
     if q2_answer == "a":
         gryffindor += 1
     elif q2_answer == "b":
@@ -60,7 +67,7 @@ print(f"gryffindor score = {gryffindor}")
 print(f"ravenclaw score = {ravenclaw}")
 print(f"hufflepuff score = {hufflepuff}")
 print(f"slytherin score = {slytherin}")   
-
+# my thrid function that meets the condition
 def q3(): 
     gryffindor = 0
     ravenclaw = 0

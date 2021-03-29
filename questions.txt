@@ -1,0 +1,13 @@
+   {
+
+	�Q1� : �Will you break the rules to help a friend? a) yes b) no c) maybe d) get lost�,
+	�Q2� : �How do you describe yourself? a)brave b) timid, c)superstar d) best of the best�,
+	�Q3� : �If you see a deatheater, what will you do? a) fight b) run c) get help d)run like crazy�,
+	�Q4� : � Given the choice, would you rather invent a potion that would guarantee you? a) glory b) wisdom c) love d) power�,
+	�Q5� : � How would you like to be known in history a) The Wise b) The Good c) The bold d) The great�,
+	�Q6� : � What kind of instrument most pleases the ear? a) Violin b) Drums c) Piano d) Trumpet �,
+	�Q7� : �Which of the falling do you find most difficult to deal with? a) Hunger b) Cold c) Boredom  d) Being ignored�,
+	�Q8� : �Which Would you rather be? a) Trusted b) Liked c) Envied d) Imitated�,
+	�Q9� : �Which road tempts you the most? a) The wide, sunny, grassy lane b) the narrow, dark, lantern-lit alley, c) The cobbled street lined with ancient buildings d) none� 
+	�Q10 : �If you could have any power, which would you choose?� a) The power to read minds b) The power of invisibility c) The power of superhuman strength d) The power to change the past
+             }
