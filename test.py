@@ -1,7 +1,11 @@
+# importing unittest module
 import unittest
 
-class SimpleTest (unittest.TestCase):
+class SampleTest (unittest.TestCase):
 
-    def setUp(self):
+    def test(self):
+        self.assertTrue(True)
+
+unittest.main()
 
    
